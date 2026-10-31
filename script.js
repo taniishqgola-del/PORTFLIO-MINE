@@ -558,7 +558,7 @@ emailjs.init({
       f.elements[n].addEventListener('blur', () => check(n));
       f.elements[n].addEventListener('input', () => { if (f.elements[n].closest('.field').classList.contains('invalid')) check(n); });
     });
-    f.addEventListener('submit', e => {
+    f.addEventListener('submit', async e => {
       e.preventDefault();
       status.className = 'form-status';
       const ok = Object.keys(rules).map(check).every(Boolean);
