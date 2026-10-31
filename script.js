@@ -129,6 +129,7 @@ emailjs.init({
     },
     {
       id: 'bike-rush', name: 'Bike Rush', category: 'Game Development', filter: 'game', demo: true,
+      demoUrl: 'https://taniishqgola-del.github.io/bike-rush-game-/', 
       repo: 'https://github.com/taniishqgola-del/bike-rush-game-', 
       desc: 'A bike racing game project focused on interactive gameplay and arcade-style racing.',
       tags: ['Game Development', 'JavaScript / Web'], snippet: 'requestAnimationFrame(loop)',
@@ -139,6 +140,7 @@ emailjs.init({
     },
     {
       id: 'space-shooter', name: 'Space Shooting Game', category: 'Game Development', filter: 'game', demo: true,
+      demoUrl: 'https://taniishqgola-del.github.io/space-shooting-game-/', 
       repo: 'https://github.com/taniishqgola-del/space-shooting-game-', 
       desc: 'A browser-based space shooting game with interactive gameplay and visual elements.',
       tags: ['HTML', 'CSS', 'JavaScript', 'Game Development'], snippet: 'ship.fire(bullet)',
@@ -149,6 +151,7 @@ emailjs.init({
     },
     {
       id: 'kbc', name: 'KBC Quiz Game', category: 'Game / Interactive Application', filter: 'game', demo: true,
+      demoUrl: 'https://taniishqgola-del.github.io/KBC-kaun-banega-crorepati-/',
       repo: 'https://github.com/taniishqgola-del/KBC-kaun-banega-crorepati-', 
       desc: 'A quiz game inspired by the popular Indian game-show format, featuring questions, answer selection and lifeline mechanics.',
       tags: ['Game Development', 'JavaScript', 'Interactive UI'], snippet: 'lifeline.use("50-50")',
