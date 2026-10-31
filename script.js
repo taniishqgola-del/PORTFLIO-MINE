@@ -568,9 +568,24 @@ emailjs.init({
         if (bad) bad.focus();
         return;
       }
-      // No backend or email service is connected, so nothing is actually sent.
-      status.textContent = 'Your message looks good, but this demo form is not connected to an email service yet, so it was not sent. Please reach out by phone for now.';
-      status.classList.add('ok');
+           status.textContent = 'Sending...';
+
+      try {
+        await emailjs.sendForm(
+          'service_b816anh',
+          'template_higoicm',
+          f
+        );
+
+        status.textContent = 'Message sent successfully! I’ll get back to you soon.';
+        status.classList.add('ok');
+        f.reset();
+
+      } catch (error) {
+        console.error('EmailJS error:', error);
+        status.className = 'form-status';
+        status.textContent = 'Something went wrong. Please try again.';
+      }
     });
   }
 
