@@ -3,7 +3,9 @@
    ========================================================= */
 (() => {
   'use strict';
-
+emailjs.init({
+  publicKey: "gkfC-ZdKoIw-qw6F5"
+});
   /* ---------------------------------------------------------
      CONFIG — fill these in once you have the real URLs.
      Leave a value as "" and the matching button shows a
