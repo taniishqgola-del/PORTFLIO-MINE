@@ -12,7 +12,7 @@ emailjs.init({
      friendly "link coming soon" message instead of a fake link.
      --------------------------------------------------------- */
   const CONFIG = {
-    github: '',    // e.g. 'https://github.com/your-username'
+   github: 'https://github.com/taniishqgola-del',
     linkedin: '',  // e.g. 'https://www.linkedin.com/in/your-profile'
     email: ''      // full address, e.g. 'name@example.com' (the prompt gave an incomplete one)
   };
