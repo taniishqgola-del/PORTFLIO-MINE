@@ -118,16 +118,6 @@ emailjs.init({
       features: ['Digital food ordering experience', 'UI-focused application', 'More details coming soon']
     },
     {
-      id: 'ecommerce', name: 'Tanishq E-Commerce', category: 'Web Development', filter: 'web', demo: true,
-      repo: 'https://github.com/taniishqgola-del/tanishq',
-      desc: 'An e-commerce interface inspired by a jewellery shopping experience, featuring product browsing, search, filtering and sorting.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'E-Commerce UI'], snippet: 'products.filter(sort)',
-      overview: 'An e-commerce interface inspired by a jewellery shopping experience, featuring product browsing, search, filtering and sorting.',
-      problem: 'Online shoppers need to find products quickly in a catalogue without being overwhelmed.',
-      solution: 'A front-end shopping interface that lets users browse products and narrow them down with search, filtering and sorting.',
-      features: ['Product browsing', 'Search', 'Filtering and sorting', 'Built with HTML, CSS and JavaScript']
-    },
-    {
       id: 'bike-rush', name: 'Bike Rush', category: 'Game Development', filter: 'game', demo: true,
       demoUrl: 'https://taniishqgola-del.github.io/bike-rush-game-/', 
       repo: 'https://github.com/taniishqgola-del/bike-rush-game-', 
