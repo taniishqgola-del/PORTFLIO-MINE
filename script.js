@@ -38,6 +38,7 @@ emailjs.init({
   const PROJECTS = [
     {
       id: 'airgorah', name: 'WiFi Security Auditing — Airgorah', category: 'Cybersecurity / Security', filter: 'security',
+      repo: 'https://github.com/taniishqgola-del/airgorah',
       desc: 'A WiFi security auditing project focused on wireless network security testing and analysis.',
       tags: ['Python', 'Cybersecurity', 'Wireless Security'], snippet: 'audit --scope=authorized',
       overview: 'A WiFi security auditing project focused on wireless network security testing and analysis, approached as a learning exercise in how wireless networks are assessed and protected.',
@@ -48,6 +49,7 @@ emailjs.init({
     },
     {
       id: 'house-price', name: 'House Price Prediction', category: 'Machine Learning', filter: 'ai',
+      repo: 'https://github.com/taniishqgola-del/YOUR-REPO-NAME',
       desc: 'A machine learning project that predicts house prices using property-related features such as area, bedrooms, bathrooms and other attributes.',
       tags: ['Python', 'Machine Learning', 'Regression', 'Scikit-learn'], snippet: 'model.predict(features)',
       overview: 'A machine learning project that predicts house prices from property-related features such as area, number of bedrooms, bathrooms and other attributes.',
@@ -57,6 +59,7 @@ emailjs.init({
     },
     {
       id: 'spam-classifier', name: 'Email Spam Classifier', category: 'Machine Learning / NLP', filter: 'ai',
+      repo: 'https://github.com/taniishqgola-del/Email-Spam-Classifier',
       desc: 'A machine learning application that analyzes email text and classifies messages as spam or legitimate.',
       tags: ['Python', 'NLP', 'TF-IDF', 'Machine Learning'], snippet: 'tfidf.fit_transform(text)',
       overview: 'A machine learning application that analyzes email text and classifies messages as spam or legitimate.',
@@ -66,6 +69,7 @@ emailjs.init({
     },
     {
       id: 'iris', name: 'Iris Flower Classification', category: 'Machine Learning', filter: 'ai',
+      repo: 'https://github.com/taniishqgola-del/CodTech-Iris-Flower-Classification', 
       desc: 'A classic supervised machine learning project that predicts iris flower species from flower measurements.',
       tags: ['Python', 'Classification', 'Scikit-learn'], snippet: 'clf.fit(X_train, y_train)',
       overview: 'A classic supervised machine learning project that predicts iris flower species from flower measurements.',
@@ -75,6 +79,7 @@ emailjs.init({
     },
     {
       id: 'titanic', name: 'Titanic Survival Prediction', category: 'Machine Learning', filter: 'ai',
+      repo: 'https://github.com/taniishqgola-del/titanic-survival-prediction-main', 
       desc: 'A machine learning model that predicts passenger survival based on passenger-related features from the Titanic dataset.',
       tags: ['Python', 'Machine Learning', 'Classification'], snippet: 'predict(passenger)',
       overview: 'A machine learning model that predicts passenger survival using passenger-related features from the Titanic dataset.',
@@ -84,6 +89,7 @@ emailjs.init({
     },
     {
       id: 'markitdown', name: 'MarkItDown', category: 'Python / Developer Tool', filter: 'tools',
+      repo: 'https://github.com/taniishqgola-del/markitdown', 
       desc: 'A Python-based utility for converting documents and files into Markdown, designed to simplify document conversion workflows.',
       tags: ['Python', 'Automation', 'Markdown', 'Developer Tools'], snippet: 'convert(file) -> .md',
       overview: 'A Python-based utility for converting documents and files into Markdown, designed to simplify document conversion workflows.',
@@ -93,6 +99,7 @@ emailjs.init({
     },
     {
       id: 'bareiron', name: 'BareIron', category: 'Systems / Experimental', filter: 'systems',
+      repo: 'https://github.com/taniishqgola-del/bareiron', 
       desc: 'A minimalist Minecraft server concept designed for lightweight, memory-constrained environments.',
       tags: ['Systems', 'Performance', 'Lightweight Computing'], snippet: 'mem --limit=minimal',
       overview: 'A minimalist Minecraft server concept designed for lightweight, memory-constrained environments.',
@@ -102,6 +109,7 @@ emailjs.init({
     },
     {
       id: 'smartfood', name: 'SmartFoodOrdering', category: 'Application Development', filter: 'web',
+      repo: 'https://github.com/taniishqgola-del/SmartFoodOrdering', 
       desc: 'A food ordering project focused on creating a digital ordering experience.',
       tags: ['Application Development', 'UI', 'Web'], snippet: 'order.place(items)',
       overview: 'A food ordering project focused on creating a digital ordering experience.',
@@ -111,6 +119,7 @@ emailjs.init({
     },
     {
       id: 'ecommerce', name: 'Tanishq E-Commerce', category: 'Web Development', filter: 'web', demo: true,
+      repo: 'https://github.com/taniishqgola-del/tanishq',
       desc: 'An e-commerce interface inspired by a jewellery shopping experience, featuring product browsing, search, filtering and sorting.',
       tags: ['HTML', 'CSS', 'JavaScript', 'E-Commerce UI'], snippet: 'products.filter(sort)',
       overview: 'An e-commerce interface inspired by a jewellery shopping experience, featuring product browsing, search, filtering and sorting.',
@@ -120,6 +129,7 @@ emailjs.init({
     },
     {
       id: 'bike-rush', name: 'Bike Rush', category: 'Game Development', filter: 'game', demo: true,
+      repo: 'https://github.com/taniishqgola-del/bike-rush-game-', 
       desc: 'A bike racing game project focused on interactive gameplay and arcade-style racing.',
       tags: ['Game Development', 'JavaScript / Web'], snippet: 'requestAnimationFrame(loop)',
       overview: 'A bike racing game project focused on interactive gameplay and arcade-style racing.',
@@ -129,6 +139,7 @@ emailjs.init({
     },
     {
       id: 'space-shooter', name: 'Space Shooting Game', category: 'Game Development', filter: 'game', demo: true,
+      repo: 'https://github.com/taniishqgola-del/space-shooting-game-', 
       desc: 'A browser-based space shooting game with interactive gameplay and visual elements.',
       tags: ['HTML', 'CSS', 'JavaScript', 'Game Development'], snippet: 'ship.fire(bullet)',
       overview: 'A browser-based space shooting game with interactive gameplay and visual elements.',
@@ -138,6 +149,7 @@ emailjs.init({
     },
     {
       id: 'kbc', name: 'KBC Quiz Game', category: 'Game / Interactive Application', filter: 'game', demo: true,
+      repo: 'https://github.com/taniishqgola-del/KBC-kaun-banega-crorepati-', 
       desc: 'A quiz game inspired by the popular Indian game-show format, featuring questions, answer selection and lifeline mechanics.',
       tags: ['Game Development', 'JavaScript', 'Interactive UI'], snippet: 'lifeline.use("50-50")',
       overview: 'A quiz game inspired by the popular Indian game-show format, featuring questions, answer selection and lifeline mechanics.',
@@ -147,6 +159,7 @@ emailjs.init({
     },
     {
       id: 'student-report', name: 'Student Report', category: 'Application Development', filter: 'web',
+      repo: 'https://github.com/taniishqgola-del/student-report',
       desc: 'A student-focused application for managing or presenting academic information and reports.',
       tags: ['Application Development', 'Student Management'], snippet: 'report.generate(student)',
       overview: 'A student-focused application for managing or presenting academic information and reports.',
@@ -156,6 +169,7 @@ emailjs.init({
     },
     {
       id: 'powershell', name: 'PowerShell', category: 'System / Automation', filter: 'systems',
+      repo: 'https://github.com/taniishqgola-del/PowerShell', 
       desc: 'A repository containing PowerShell-based experiments, scripts or utilities.',
       tags: ['PowerShell', 'Automation', 'System Tools'], snippet: 'Get-Process | Sort CPU',
       overview: 'A repository containing PowerShell-based experiments, scripts or utilities.',
@@ -163,16 +177,7 @@ emailjs.init({
       solution: 'A collection of PowerShell experiments, scripts and utilities for system-level tasks.',
       features: ['PowerShell scripts and experiments', 'Automation and system tools', 'More details coming soon']
     },
-    {
-      id: 'portfolio', name: 'Portfolio', category: 'Web Development', filter: 'web', demo: true,
-      desc: 'A personal portfolio website created to showcase projects, skills and development work.',
-      tags: ['HTML', 'CSS', 'JavaScript'], snippet: '<section id="work">',
-      overview: 'A personal portfolio website created to showcase projects, skills and development work.',
-      problem: 'Projects are easier to share and understand when they are presented together in one place.',
-      solution: 'A portfolio site built with HTML, CSS and JavaScript that brings projects and skills together.',
-      features: ['Showcases projects and skills', 'Responsive layout', 'Built with HTML, CSS and JavaScript']
-    }
-  ];
+    ];
   const FEATURED_IDS = ['airgorah', 'house-price', 'spam-classifier'];
 
   /* ---------- Icons by category ---------- */
